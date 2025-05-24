@@ -8,12 +8,11 @@ function App() {
   return (
     <>
       <body class="body_principal">
-        
 
 
         <div class="div_img_cristoRedentor"> {/* div da imagem do Cristo Redentor */}
 
-          <img src="src/assets/CristoRedentor.png" alt="" />
+          <img class="transform_redentor"src="src/assets/CristoRedentor.png" alt="" />
 
         </div>
 
@@ -46,13 +45,11 @@ function App() {
 
         <div> {/* div do botão de Entrar ou Cadastrar*/}
 
-          <div>      
-          
-            <h1 class="EntrarOuCadastra">Entrar ou Cadastrar</h1>
+          <button class="Button_EntrarOuCadastrar">
 
-          </div>
+          Vamos descobrir!
 
-          <div class="botton_entrar_cadastrar"></div>
+          </button>
 
         </div>
 
