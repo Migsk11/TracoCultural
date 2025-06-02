@@ -9,6 +9,7 @@ function App() {
     <>
       <body class="body_principal">
 
+    <div className='div_principal'>
 
         <div class="div_img_cristoRedentor"> {/* div da imagem do Cristo Redentor */}
 
@@ -17,30 +18,11 @@ function App() {
         </div>
 
 
-
-
-
         <div class="text_Eai"> {/* div texto principal "Eai para onde vamos..." */}
 
           <img class="img_eai" src="src/assets/TextoEaiParaOndeVamos.png" alt="" />
           
         </div>
-
-
-
-
-
-
-        <div class="div_logo_inicial"> {/* div da imagem-logo */}
-
-          <img class="img_logo_inicial" src="src/assets/LogoTracoCultural.png" alt="" />
-
-        </div>
-
-
-
-
-
 
 
         <div> {/* div do botão de Entrar ou Cadastrar*/}
@@ -52,6 +34,8 @@ function App() {
           </button>
 
         </div>
+
+    </div>
 
 
 
