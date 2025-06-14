@@ -3,15 +3,11 @@ import './App.css'
 import SecondPage from './pages/SecondPage'
 
 function HomePage() {
-
-  
   const navigate = useNavigate();
 
   const handleButtonClick = () => {
     navigate('/segunda-pagina');
   };
-
-
 
   return (
     <body className="body_principal">
@@ -34,10 +30,7 @@ function HomePage() {
   )
 }
 
-
-
-
-function App() {
+function Home() {
   return (
     <Routes>
       <Route path="/" element={<HomePage />} />
@@ -46,4 +39,4 @@ function App() {
   )
 }
 
-export default App
+export default Home
