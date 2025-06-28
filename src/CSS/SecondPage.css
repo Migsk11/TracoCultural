@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Inter');
+
+body{
+  overflow: hidden;
+  background-image: linear-gradient(#a57262, #251712);
+  align-items: center;
+  justify-content: center;
+}
+
+.square{
+    background-color: #251712;
+
+    display: block;
+
+    height: 647px;
+    width: 661px;
+    border-radius: 50px;
+
+    opacity: 80%;
+}
+
+.square_content{
+    display:flex;
+    justify-content: center;
+    
+}
+
+
+.input_email{
+    position: absolute;
+    top: 310px;
+
+    font-size: 32px;
+    font-family:'Inter';
+
+    width: 500px;
+    height: 87px;
+
+    border-radius: 30px;
+}

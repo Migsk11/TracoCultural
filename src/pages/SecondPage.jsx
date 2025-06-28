@@ -1,22 +1,28 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
-import '../App.css'
+import '/workspaces/TracoCultural/src/CSS/SecondPage.css'
 
 function SecondPage() {
-  const navigate = useNavigate();
 
-  const handleButtonClick = () => {
-    navigate('/'); // Redireciona para a página inicial (rota raiz)
-  }
 
   return (
-    <div>
+    <body>
 
-      <button onClick={handleButtonClick}>
-        Volte para pagina anterior
-      </button>
+          <div className="square">
+            
 
-    </div>
+            <div className="square_content">
+
+              <input type="email" placeholder='E-Mail' className="input_email" /> 
+
+            </div>
+            
+            
+          </div>
+        
+
+
+    </body>
   )
 }
 
