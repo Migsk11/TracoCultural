@@ -13,7 +13,13 @@ function SecondPage() {
 
             <div className="square_content">
 
-              <input type="email" placeholder='E-Mail' className="input_email" /> 
+              <input 
+              id='inputEmail'
+              onFocus={onFocusInputEmail}
+              type="email" 
+              placeholder='E-Mail' 
+              className="input_email" 
+              /> 
 
             </div>
             
@@ -24,6 +30,12 @@ function SecondPage() {
 
     </body>
   )
+}
+
+function onFocusInputEmail(){
+
+  document.getElementById('inputEmail').style.borderRadius = '50px'
+
 }
 
 export default SecondPage
